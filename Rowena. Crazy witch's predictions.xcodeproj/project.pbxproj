@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		269D7F2E228F513400F0B92C /* FindMatchesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D7F2D228F513400F0B92C /* FindMatchesVC.swift */; };
+		269D7F33228F543000F0B92C /* CardFM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D7F32228F543000F0B92C /* CardFM.swift */; };
+		269D7F35228F543D00F0B92C /* CardModelFM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D7F34228F543D00F0B92C /* CardModelFM.swift */; };
+		269D7F37228F56DA00F0B92C /* FindMatchesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D7F36228F56DA00F0B92C /* FindMatchesCell.swift */; };
+		269D7F39228FDF4500F0B92C /* EndOFFindMatchesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D7F38228FDF4500F0B92C /* EndOFFindMatchesVC.swift */; };
+		269D7F3B2290270800F0B92C /* YesNoAnswerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D7F3A2290270800F0B92C /* YesNoAnswerVC.swift */; };
+		26BAD004228C9C32001FDCC4 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAD003228C9C32001FDCC4 /* AudioPlayer.swift */; };
+		26BAD009228C9CC3001FDCC4 /* sample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 26BAD008228C9CC3001FDCC4 /* sample.m4a */; };
+		26BAD00B228C9F36001FDCC4 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BAD00A228C9F36001FDCC4 /* Settings.storyboard */; };
+		26BAD00E228C9F81001FDCC4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAD00D228C9F81001FDCC4 /* SettingsViewController.swift */; };
+		26BAD012228D8598001FDCC4 /* PredictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAD011228D8598001FDCC4 /* PredictionViewController.swift */; };
+		26BAD014228D875F001FDCC4 /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAD013228D875F001FDCC4 /* EnterNameViewController.swift */; };
+		26BAD016228D8E25001FDCC4 /* GamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAD015228D8E25001FDCC4 /* GamesVC.swift */; };
+		26BAD018228D8E8D001FDCC4 /* LetsTalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAD017228D8E8D001FDCC4 /* LetsTalkViewController.swift */; };
 		26C01872228C240C00B13325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C01871228C240C00B13325 /* AppDelegate.swift */; };
 		26C01874228C240C00B13325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C01873228C240C00B13325 /* ViewController.swift */; };
 		26C01877228C240C00B13325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C01875228C240C00B13325 /* Main.storyboard */; };
 		26C01879228C240D00B13325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C01878228C240D00B13325 /* Assets.xcassets */; };
 		26C0187C228C240D00B13325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C0187A228C240D00B13325 /* LaunchScreen.storyboard */; };
+		26C01884228C272000B13325 /* BasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C01883228C272000B13325 /* BasedViewController.swift */; };
+		26C01886228C294800B13325 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C01885228C294800B13325 /* CustomButton.swift */; };
+		26C01888228C31FC00B13325 /* ButtonExstension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C01887228C31FC00B13325 /* ButtonExstension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		269D7F2D228F513400F0B92C /* FindMatchesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMatchesVC.swift; sourceTree = "<group>"; };
+		269D7F32228F543000F0B92C /* CardFM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFM.swift; sourceTree = "<group>"; };
+		269D7F34228F543D00F0B92C /* CardModelFM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModelFM.swift; sourceTree = "<group>"; };
+		269D7F36228F56DA00F0B92C /* FindMatchesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMatchesCell.swift; sourceTree = "<group>"; };
+		269D7F38228FDF4500F0B92C /* EndOFFindMatchesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndOFFindMatchesVC.swift; sourceTree = "<group>"; };
+		269D7F3A2290270800F0B92C /* YesNoAnswerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesNoAnswerVC.swift; sourceTree = "<group>"; };
+		26BAD003228C9C32001FDCC4 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		26BAD008228C9CC3001FDCC4 /* sample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.m4a; sourceTree = "<group>"; };
+		26BAD00A228C9F36001FDCC4 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		26BAD00D228C9F81001FDCC4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		26BAD011228D8598001FDCC4 /* PredictionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionViewController.swift; sourceTree = "<group>"; };
+		26BAD013228D875F001FDCC4 /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
+		26BAD015228D8E25001FDCC4 /* GamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesVC.swift; sourceTree = "<group>"; };
+		26BAD017228D8E8D001FDCC4 /* LetsTalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkViewController.swift; sourceTree = "<group>"; };
 		26C0186E228C240C00B13325 /* Rowena. Crazy witch's predictions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rowena. Crazy witch's predictions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C01871228C240C00B13325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26C01873228C240C00B13325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +53,9 @@
 		26C01878228C240D00B13325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26C0187B228C240D00B13325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26C0187D228C240D00B13325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C01883228C272000B13325 /* BasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasedViewController.swift; sourceTree = "<group>"; };
+		26C01885228C294800B13325 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = ../CustomButton.swift; sourceTree = "<group>"; };
+		26C01887228C31FC00B13325 /* ButtonExstension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonExstension.swift; path = ../ButtonExstension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +69,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		269D7F2F228F513B00F0B92C /* FindMatches */ = {
+			isa = PBXGroup;
+			children = (
+				269D7F32228F543000F0B92C /* CardFM.swift */,
+				269D7F34228F543D00F0B92C /* CardModelFM.swift */,
+				269D7F2D228F513400F0B92C /* FindMatchesVC.swift */,
+				269D7F36228F56DA00F0B92C /* FindMatchesCell.swift */,
+				269D7F38228FDF4500F0B92C /* EndOFFindMatchesVC.swift */,
+			);
+			path = FindMatches;
+			sourceTree = "<group>";
+		};
+		269D7F3C2290271B00F0B92C /* YesNo */ = {
+			isa = PBXGroup;
+			children = (
+				26BAD017228D8E8D001FDCC4 /* LetsTalkViewController.swift */,
+				269D7F3A2290270800F0B92C /* YesNoAnswerVC.swift */,
+			);
+			path = YesNo;
+			sourceTree = "<group>";
+		};
+		26BAD002228C9BE4001FDCC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				26C01873228C240C00B13325 /* ViewController.swift */,
+				26C01883228C272000B13325 /* BasedViewController.swift */,
+				26BAD00D228C9F81001FDCC4 /* SettingsViewController.swift */,
+				26BAD011228D8598001FDCC4 /* PredictionViewController.swift */,
+				26BAD013228D875F001FDCC4 /* EnterNameViewController.swift */,
+				26BAD015228D8E25001FDCC4 /* GamesVC.swift */,
+				269D7F3C2290271B00F0B92C /* YesNo */,
+				269D7F2F228F513B00F0B92C /* FindMatches */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		26BAD007228C9C6D001FDCC4 /* Music and sounds */ = {
+			isa = PBXGroup;
+			children = (
+				26BAD008228C9CC3001FDCC4 /* sample.m4a */,
+			);
+			path = "Music and sounds";
+			sourceTree = "<group>";
+		};
+		26BAD00C228C9F3D001FDCC4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				26C01875228C240C00B13325 /* Main.storyboard */,
+				26BAD00A228C9F36001FDCC4 /* Settings.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		26C01865228C240B00B13325 = {
 			isa = PBXGroup;
 			children = (
@@ -55,13 +142,25 @@
 			isa = PBXGroup;
 			children = (
 				26C01871228C240C00B13325 /* AppDelegate.swift */,
-				26C01873228C240C00B13325 /* ViewController.swift */,
-				26C01875228C240C00B13325 /* Main.storyboard */,
+				26BAD003228C9C32001FDCC4 /* AudioPlayer.swift */,
+				26BAD002228C9BE4001FDCC4 /* Controllers */,
+				26C01889228C3BCD00B13325 /* Extensions */,
+				26BAD007228C9C6D001FDCC4 /* Music and sounds */,
+				26BAD00C228C9F3D001FDCC4 /* Storyboards */,
 				26C01878228C240D00B13325 /* Assets.xcassets */,
 				26C0187A228C240D00B13325 /* LaunchScreen.storyboard */,
 				26C0187D228C240D00B13325 /* Info.plist */,
 			);
 			path = "Rowena. Crazy witch's predictions";
+			sourceTree = "<group>";
+		};
+		26C01889228C3BCD00B13325 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				26C01887228C31FC00B13325 /* ButtonExstension.swift */,
+				26C01885228C294800B13325 /* CustomButton.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +221,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26BAD009228C9CC3001FDCC4 /* sample.m4a in Resources */,
 				26C0187C228C240D00B13325 /* LaunchScreen.storyboard in Resources */,
 				26C01879228C240D00B13325 /* Assets.xcassets in Resources */,
 				26C01877228C240C00B13325 /* Main.storyboard in Resources */,
+				26BAD00B228C9F36001FDCC4 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +236,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26BAD014228D875F001FDCC4 /* EnterNameViewController.swift in Sources */,
+				269D7F37228F56DA00F0B92C /* FindMatchesCell.swift in Sources */,
+				26C01886228C294800B13325 /* CustomButton.swift in Sources */,
+				26BAD012228D8598001FDCC4 /* PredictionViewController.swift in Sources */,
+				269D7F3B2290270800F0B92C /* YesNoAnswerVC.swift in Sources */,
+				26BAD016228D8E25001FDCC4 /* GamesVC.swift in Sources */,
+				269D7F35228F543D00F0B92C /* CardModelFM.swift in Sources */,
+				26C01884228C272000B13325 /* BasedViewController.swift in Sources */,
+				26BAD00E228C9F81001FDCC4 /* SettingsViewController.swift in Sources */,
+				269D7F33228F543000F0B92C /* CardFM.swift in Sources */,
+				26BAD018228D8E8D001FDCC4 /* LetsTalkViewController.swift in Sources */,
 				26C01874228C240C00B13325 /* ViewController.swift in Sources */,
 				26C01872228C240C00B13325 /* AppDelegate.swift in Sources */,
+				269D7F2E228F513400F0B92C /* FindMatchesVC.swift in Sources */,
+				26C01888228C31FC00B13325 /* ButtonExstension.swift in Sources */,
+				269D7F39228FDF4500F0B92C /* EndOFFindMatchesVC.swift in Sources */,
+				26BAD004228C9C32001FDCC4 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35U3SKBK64;
 				INFOPLIST_FILE = "Rowena. Crazy witch's predictions/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Eduard-Sinyakov.Rowena--Crazy-witch-s-predictions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35U3SKBK64;
 				INFOPLIST_FILE = "Rowena. Crazy witch's predictions/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +428,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Eduard-Sinyakov.Rowena--Crazy-witch-s-predictions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

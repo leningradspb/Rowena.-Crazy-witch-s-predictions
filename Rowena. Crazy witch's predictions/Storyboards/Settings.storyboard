@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lpc-LC-wev">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="EhW-Me-gvj">
+            <objects>
+                <viewController id="lpc-LC-wev" customClass="SettingsViewController" customModule="Rowena__Crazy_witch_s_predictions" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f6O-JN-bSj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIT-p1-F4W" customClass="CustomButton" customModule="Rowena__Crazy_witch_s_predictions" customModuleProvider="target">
+                                <rect key="frame" x="160" y="433" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Change name"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="pSC-bB-0IO">
+                                <rect key="frame" x="78" y="74" width="258.5" height="31.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music settings:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQ9-Po-DR4">
+                                        <rect key="frame" x="0.0" y="1.5" width="170.5" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JTe-Nv-mbQ">
+                                        <rect key="frame" x="209.5" y="0.5" width="51" height="31"/>
+                                        <color key="onTintColor" red="0.84364426140000004" green="0.55258941650000004" blue="0.2234152257" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="switchMusicAction:" destination="lpc-LC-wev" eventType="valueChanged" id="9yx-XH-TMH"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="258.5" id="H5V-W0-OvO"/>
+                                    <constraint firstAttribute="height" constant="31.5" id="igW-Ya-1Dh"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pSC-bB-0IO" firstAttribute="centerX" secondItem="f6O-JN-bSj" secondAttribute="centerX" id="QJl-bi-zdF"/>
+                            <constraint firstItem="pSC-bB-0IO" firstAttribute="top" secondItem="jLu-WA-2K8" secondAttribute="top" constant="30" id="UxU-m6-2rk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jLu-WA-2K8"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ooX-ZO-l6b"/>
+                    <connections>
+                        <outlet property="musicSwitch" destination="JTe-Nv-mbQ" id="8H1-l1-4Wg"/>
+                        <outlet property="navigationItemOutlet" destination="ooX-ZO-l6b" id="b81-0H-iNU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6wj-pu-p6G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2797.1014492753625" y="-582.58928571428567"/>
+        </scene>
+    </scenes>
+</document>
